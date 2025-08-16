@@ -233,6 +233,7 @@ nav ul li a:hover {
    =================== */
 @media (max-width: 768px) {
   nav ul {
+    gap: 1rem;
     text-align: center;
   }
 
