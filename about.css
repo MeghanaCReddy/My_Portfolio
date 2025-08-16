@@ -128,7 +128,7 @@ footer {
    =================== */
 @media (max-width: 768px) {
   nav ul {
-    gap: 0.7rem;
+    gap: 1rem;
     text-align: center;
   }
   nav ul li {
