@@ -23,10 +23,9 @@ nav ul li a {
   text-decoration: none;
   font-size: 16px;
 }
-nav ul li a.active {
-  border-bottom: 2px solid #ff4081;
+nav ul li a:hover {
+  color: hotpink;
 }
-
 /* About Section */
 .about {
   text-align: center;
