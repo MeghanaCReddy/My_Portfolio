@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+header {
+  background: #333;
+  padding: 15px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+nav ul li a.active {
+  border-bottom: 2px solid #ff4081;
+}
+
+/* About Section */
+.about {
+  text-align: center;
+  padding: 60px 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+.about h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #ff4081;
+}
+.about p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* Education Section */
+.education {
+  padding: 60px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+.education h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+}
+.edu-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  animation: slideUp 1.5s ease-in-out;
+}
+.edu-card img {
+  width: 200px;
+  border-radius: 10px;
+}
+.edu-text {
+  text-align: left;
+}
+.edu-text h3 {
+  color: #ff4081;
+}
+
+/* Skills */
+.skills {
+  margin: 40px 0;
+  animation: fadeIn 2.5s ease-in-out;
+}
+
+.skills h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.skills li {
+  background: #ffebf0;
+  display: inline-block;
+  margin: 8px;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
